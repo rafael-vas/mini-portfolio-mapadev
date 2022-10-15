@@ -30,11 +30,11 @@ abas.forEach(aba => {
         }
 
         selecionarAba(aba)
-        selecionarInformacao(aba)
+        mostrarInformacoesDaAba(aba)
     })
 })
 
-function mostrarInformacoesDaAba(aba) {
+function selecionarAba(aba) {
         //PASSO 3:
         const abaSelecionada = document.querySelector(".aba.selecionado");
         abaSelecionada.classList.remove("selecionado");
