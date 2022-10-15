@@ -1,5 +1,5 @@
 body {
-    background-image: url(../imagens/bgtech04.jpg);
+    background-image: url(../imagens/bg-slow.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -15,15 +15,16 @@ body {
 }
 
 .cartao {
-    background-color: #070b12;
+    background-color: #031042;
     width: 370px;
-    border: 2px solid #26dbe1;
+    border: 2px solid #2b64ff;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 0 8px rgb(158, 158, 158);
+    box-shadow: 0 0 21px #005586;
 }
 
 .cartao .minhas-informacoes {
+    background-color: #031042;
     padding-top: 20px;
     display: flex;
     flex-direction: column;
@@ -33,8 +34,11 @@ body {
 }
 
 .cartao .minhas-informacoes img {
+    border: none;
     border-radius: 50px;
-    border: 4px solid #eb7d00;
+    box-shadow: 0 0 9px #5a81ff ;
+    /*border-radius: 50px;*/
+    /*border: 4px solid #4d8bff;*/
 }
 
 .cartao .minhas-informacoes .nome {
@@ -68,15 +72,15 @@ body {
 }
 
 .cartao .abas .aba.selecionado {
-    background-color: #262626;
+    background-color:  #1a2c6b;
 }
 
 .cartao .informacoes-abas {
-    background-color: #262626;
+    background-color:  #1a2c6b;
 }
 
 .cartao .abas .aba:hover {
-    background-color: #444444;
+    background-color:  #213ea7;
 }
 
 .informacoes-abas .informacao {
@@ -103,7 +107,7 @@ body {
 }
 
 .informacoes-abas .descricao span {
-    color: #eb7d00;
+    color: #e3e700;
 }
 
 .redes-sociais{
