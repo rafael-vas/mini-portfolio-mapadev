@@ -1,5 +1,5 @@
 body {
-    background-image: url(../imagens/bg.jpg);
+    background-image: url(../imagens/2920341\ -\ Copia.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -93,7 +93,7 @@ body {
 }
 
 .cartao .abas .aba:hover {
-    background-color:  #213ea7;
+    background-color:  #223a92;
 }
 
 .informacoes-abas .informacao {
@@ -121,7 +121,7 @@ body {
 
 .informacoes-abas .descricao span {
     color: #e3e700;
-    animation: coresDancantes 3s linear infinite;
+    animation: coresDancantes 4.5s linear infinite;
 }
 
 .redes-sociais{
@@ -145,17 +145,20 @@ body {
 }
 
 .redes-sociais li a:hover {
-    opacity: 0.73;
+    opacity: 0.70;
 }
 
 .redes-sociais .curriculo {
     background-color: #06c185;
+    border-radius: 8px;
 }
 
 .redes-sociais .linkedin {
-    background-color: #1d87bd;
+    background-color: #1372a1;
+    border-radius: 8px;
 }
 
 .redes-sociais .github {
-    background-color: #c96e06;
+    background-color: #545454;
+    border-radius: 8px;
 }
