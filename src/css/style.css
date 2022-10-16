@@ -1,5 +1,5 @@
 body {
-    background-image: url(../imagens/bg-slow2.gif);
+    background-image: url(../imagens/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -12,6 +12,19 @@ body {
     align-items: center;
     min-height: 100vh;
     padding: 30px;
+}
+
+:root {
+    --cor-background: #212123;
+    --cor-reflexo: rgba(255, 255, 255, 0.4);
+    --cores-dancantes: rgb(76, 217, 105), rgb(52, 170, 220), rgb(88, 86, 217),
+        rgb(255, 45, 83);
+}
+
+@keyframes coresDancantes {
+    100% {
+        filter: hue-rotate(360deg);
+    }
 }
 
 .cartao {
@@ -108,6 +121,7 @@ body {
 
 .informacoes-abas .descricao span {
     color: #e3e700;
+    animation: coresDancantes 3s linear infinite;
 }
 
 .redes-sociais{
