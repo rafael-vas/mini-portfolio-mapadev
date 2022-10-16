@@ -1,5 +1,5 @@
 body {
-    background-image: url(../imagens/2920341\ -\ Copia.jpg);
+    background-image: url(../imagens/bg-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -30,10 +30,10 @@ body {
 .cartao {
     background-color: #031042;
     width: 370px;
-    border: 2px solid #2b64ff;
+    /*border: 2px solid #2b64ff;*/
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 0 21px #005586;
+    box-shadow: 0 0 21px #2079df;
 }
 
 .cartao .minhas-informacoes {
