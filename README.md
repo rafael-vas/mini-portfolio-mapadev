@@ -22,7 +22,7 @@ https://rafael-vas.github.io/mini-portfolio-mapadev/
 <table>
   <tr>
     <td align="center">
-      <a href="http://github.com/tatialveso">
+      <a href="https://github.com/rafael-vas/">
         <img src="https://i.imgur.com/3NwUzK3.jpg" width="100px" alt="Foto de Rafael no GitHub"/><br>
         <sub>
           <b>rafael-vas</b>
