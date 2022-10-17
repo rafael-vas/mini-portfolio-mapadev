@@ -1,5 +1,6 @@
 <h1 align="center">:file_cabinet: Projeto Mini Portfolio</h1>
 <p align="center">Desenvolvido no MapaDev Week (Dev em Dobro).</p>
+<br/>
 
 ## :books: Funcionalidades
 * <b>Aba - Sobre</b>: Contém as informações sobre mim.
